@@ -11,6 +11,12 @@
 		1DF3D2022534D2340095FF31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3D2012534D2340095FF31 /* ContentView.swift */; };
 		1DF3D2042534D2370095FF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3D2032534D2370095FF31 /* Assets.xcassets */; };
 		1DF3D2072534D2370095FF31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3D2062534D2370095FF31 /* Preview Assets.xcassets */; };
+		1DF3D2102534D5750095FF31 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3D20F2534D5750095FF31 /* DebugView.swift */; };
+		1DF3D2132534D64C0095FF31 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3D2122534D64C0095FF31 /* Extensions.swift */; };
+		1DF3D2162534D6870095FF31 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3D2152534D6870095FF31 /* GridView.swift */; };
+		1DF3D2192534D78F0095FF31 /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3D2182534D78F0095FF31 /* DessertViewModel.swift */; };
+		1DF3D2202534DABE0095FF31 /* Capitalised.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3D21F2534DABE0095FF31 /* Capitalised.swift */; };
+		1DF3D2232534DB280095FF31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3D2222534DB280095FF31 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		1DF3D2032534D2370095FF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF3D2062534D2370095FF31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DF3D2082534D2370095FF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF3D20F2534D5750095FF31 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		1DF3D2122534D64C0095FF31 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1DF3D2152534D6870095FF31 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		1DF3D2182534D78F0095FF31 /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
+		1DF3D21F2534DABE0095FF31 /* Capitalised.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capitalised.swift; sourceTree = "<group>"; };
+		1DF3D2222534DB280095FF31 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +66,15 @@
 			children = (
 				1DF3D1FF2534D2340095FF31 /* RenderingElementsApp.swift */,
 				1DF3D2012534D2340095FF31 /* ContentView.swift */,
+				1DF3D2122534D64C0095FF31 /* Extensions.swift */,
+				1DF3D20F2534D5750095FF31 /* DebugView.swift */,
 				1DF3D2032534D2370095FF31 /* Assets.xcassets */,
 				1DF3D2082534D2370095FF31 /* Info.plist */,
 				1DF3D2052534D2370095FF31 /* Preview Content */,
+				1DF3D2152534D6870095FF31 /* GridView.swift */,
+				1DF3D2182534D78F0095FF31 /* DessertViewModel.swift */,
+				1DF3D21F2534DABE0095FF31 /* Capitalised.swift */,
+				1DF3D2222534DB280095FF31 /* User.swift */,
 			);
 			path = RenderingElements;
 			sourceTree = "<group>";
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF3D2102534D5750095FF31 /* DebugView.swift in Sources */,
+				1DF3D2202534DABE0095FF31 /* Capitalised.swift in Sources */,
+				1DF3D2192534D78F0095FF31 /* DessertViewModel.swift in Sources */,
 				1DF3D2022534D2340095FF31 /* ContentView.swift in Sources */,
+				1DF3D2232534DB280095FF31 /* User.swift in Sources */,
 				1DF3D2002534D2340095FF31 /* RenderingElementsApp.swift in Sources */,
+				1DF3D2162534D6870095FF31 /* GridView.swift in Sources */,
+				1DF3D2132534D64C0095FF31 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
